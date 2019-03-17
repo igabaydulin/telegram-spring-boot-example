@@ -34,3 +34,9 @@ java -jar build/libs/telegram-spring-boot-example-0.1.jar \
 --spring.config.additional-location=/home/igabaydulin/dev/telegram-spring-boot-example/src/main/resources/credentials.yaml \
 --spring.config.additional-location=/home/igabaydulin/dev/telegram-spring-boot-example/src/main/resources/proxy.yaml
 ```
+
+## Bot Usage
+If you send message to your bot, bot will reply you "ping"
+<p align="center">
+  <img src="https://github.com/igabaydulin/telegram-spring-boot-example/blob/master/resources/conversation.png">
+</p>
