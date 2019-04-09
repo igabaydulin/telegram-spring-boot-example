@@ -16,7 +16,7 @@ java -jar build/libs/telegram-spring-boot-example-0.1.jar \
 
 ## Configuration Properties
 * Credentials ([example](https://github.com/igabaydulin/telegram-spring-boot-example/blob/master/src/main/resources/credentials.yaml.sample)):
-    ```
+    ```yaml
     telegram:
       bot:
         credentials:
@@ -24,7 +24,7 @@ java -jar build/libs/telegram-spring-boot-example-0.1.jar \
           bot-username: "<put your bot's username here>"
     ```
 * Proxy ([example](https://github.com/igabaydulin/telegram-spring-boot-example/blob/master/src/main/resources/proxy.yaml.sample))
-    ```
+    ```yaml
     telegram:
       bot:
         proxy:
