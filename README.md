@@ -2,6 +2,15 @@
 
 Simple example of Telegram's bot written with Spring Boot
 
+## TLDR
+```
+./gradlew clean build
+
+java -jar build/libs/telegram-spring-boot-example-0.1.jar \
+--spring.config.additional-location=classpath:credentials.yaml \
+--spring.config.additional-location=classpath:proxy.yaml
+```
+
 ## Configuration Properties
 * First credentials are needed ([file example](https://github.com/igabaydulin/telegram-spring-boot-example/blob/master/credentials-example.yaml)):
     ```
