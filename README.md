@@ -31,7 +31,7 @@ java -jar build/libs/telegram-spring-boot-example-0.1.jar \
           enabled: true
           type: "<put proxy type here: {NO_PROXY, HTTP, SOCKS4, SOCKS5}>"
           host: "<put proxy host here>"
-          port: "<put proxy port here"
+          port: "<put proxy port here>"
     ```
 
 ## Building a Jar
