@@ -31,8 +31,8 @@ Output: ./build/libs/telegram-spring-boot-example-0.1.jar
 ## Execute Jar
 ```
 java -jar build/libs/telegram-spring-boot-example-0.1.jar \
---spring.config.additional-location=/home/igabaydulin/dev/telegram-spring-boot-example/src/main/resources/credentials.yaml \
---spring.config.additional-location=/home/igabaydulin/dev/telegram-spring-boot-example/src/main/resources/proxy.yaml
+--spring.config.additional-location=classpath:credentials.yaml \
+--spring.config.additional-location=classpath:proxy.yaml
 ```
 
 ## Bot Usage

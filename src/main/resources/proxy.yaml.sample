@@ -1,0 +1,7 @@
+telegram:
+  bot:
+    proxy:
+      enabled: true
+      type: "<put proxy type here: NO_PROXY, HTTP, SOCKS4, SOCKS5>"
+      host: "<put proxy host here>"
+      port: "<put proxy port here>"
