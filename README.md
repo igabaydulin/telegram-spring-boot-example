@@ -10,8 +10,8 @@ The only purpose of this bot is to reply "ping" to the received message
 ./gradlew clean build
 
 java -jar build/libs/telegram-spring-boot-example-0.1.jar \
---spring.config.additional-location=classpath:credentials.yaml \
---spring.config.additional-location=classpath:proxy.yaml
+--spring.config.location=classpath:credentials.yaml \
+--spring.config.location=classpath:proxy.yaml
 ```
 
 ## Configuration Properties
@@ -43,7 +43,7 @@ Output: ./build/libs/telegram-spring-boot-example-0.1.jar
 ## Execute Jar
 ```
 java -jar build/libs/telegram-spring-boot-example-0.1.jar \
---spring.config.additional-location=classpath:credentials.yaml \
---spring.config.additional-location=classpath:proxy.yaml
+--spring.config.location=classpath:credentials.yaml \
+--spring.config.location=classpath:proxy.yaml
 ```
 
